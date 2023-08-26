@@ -1,0 +1,82 @@
+.header-logo{
+    color : #107CDF;
+    font-weight: 600;
+}
+.nav-tags{
+    color: #fff !important;
+    font-family: "Nunito";
+    font-weight : 600;
+    text-decoration : none;
+}
+.nav-tags-lg{
+    color: #121A22 !important;
+    font-family: "Nunito";
+    font-weight : 600;
+    text-decoration : none;
+}
+.nav-tags:hover{
+    color: #107CDF;
+    text-decoration : underline;
+}
+.nav{
+    display: flex !important;
+    justify-content : space-between !important;
+    padding: 13px;
+    border-bottom: 1px solid #dedede;  
+}
+.header-nav{
+    display: flex;
+    justify-content : space-evenly !important;
+}
+.nav-items{
+    padding-top: 5px;
+}
+.nav-sm{
+    display: flex;
+    justify-content: space-between;
+    align-items : center;
+    padding: 13px;
+    border-bottom : 1px solid #dedede;
+}
+.toggle-bars{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width : 220px;
+    height: 250px;
+    background-color: #107CDF;
+    color : #fff;
+    animation: mymove 0.1s linear;
+    z-index: 4;
+}
+@keyframes mymove {
+    from {width: 0px;}
+    to {max-width: 200px;}
+}
+.button-closing{
+    animation: mymove2 0.1s linear;
+    margin-right: 5px;
+    border: 1px solid #fff !important;  
+    margin-top: 4px;
+}
+@keyframes mymove2 {
+    from { margin-left: 0px;}
+    to {margin-left : 180px;}
+}
+.listed-items{
+    list-style-type : none;
+    line-height: 36px;
+    margin-right: 25px;
+    line-height: 44px;
+}
+.custom-active{
+    color: #107CDF !important;
+}
+.nav-tags-lg.active,
+.nav-tags.active {
+  text-decoration: underline;
+}
+.nav-tags-lg:hover{
+    color: #107CDF !important;
+    text-decoration: underline;
+}

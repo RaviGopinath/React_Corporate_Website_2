@@ -1,0 +1,106 @@
+.container-fluid{
+    overflow : hidden;
+}
+.contact-icon{
+    color: #107CDF;
+    font-size: 35px;
+}
+.card-icon{
+    width : 85px;
+    height: 85px;
+    background : #F5F5F5;
+    line-height: 90px;
+    margin: 0px auto;
+    border-radius: 50%;
+}
+.contact-tag{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 20px 0px;
+    font-family: "Nunito", sans-serif !important;
+}
+.contact-text{
+    margin-bottom: 0px;
+    color: rgb(110, 110, 110);
+    font-family: "Nunito", sans-serif !important;
+}
+.contact-cards{
+    display: flex;
+    justify-content : center;
+}
+.card-contact{
+    box-shadow: rgba(62, 65, 159, 0.1) 0px 5px 15px;
+    margin-bottom : 20px;
+}
+.block3-contact-header{
+    font-size : 2.33rem;
+    font-size: 500;
+    color: #121A22;
+    font-family: "Nunito", sans-serif !important;
+}
+.block3-contact-content{
+    font-size: 16px;
+    color: rgb(110, 110, 110);
+    font-family: "Nunito", sans-serif !important;
+}
+.contact-form-block{
+    display: flex;
+    justify-content : center;
+    margin-bottom: -100px;
+}
+.contact-form{
+    padding: 20px;
+}
+.contact-input{
+    background: transparent;
+    width: 100%;
+    height: 50px;
+    border-radius: 0px;
+    padding-left: 25px;
+    border: 1px solid rgb(235, 235, 235);
+    box-shadow: none !important;
+}
+.contact-form-texarea{
+    height: 180px;
+    padding-top: 15px;
+}
+.contact-form-button{
+    background: rgb(16, 124, 223);
+    color: rgb(255, 255, 255) !important;
+    display: inline-block;
+    padding: 17px 45px !important;
+    border: 0px;
+    backface-visibility: hidden;
+    z-index: 1;
+    position: relative;
+    font-size: 16px !important;
+    font-family: "Nunito", sans-serif !important;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+.contact-map{
+   width: 100%;
+   height: 500px;
+}
+.place-desc-large{
+    font-family: "Nunito", sans-serif !important;
+
+}
+.contact-top-btn{
+    font-size: 22px;
+}
+
+
+
+@media screen and (max-width : 767px) {
+    .email-input{
+        margin-top: 40px !important;    
+    }
+}
+
+/* @media only screen and (width : 767px) {
+    .email-input{
+        margin-top: 40px !important;    
+    }
+} */
